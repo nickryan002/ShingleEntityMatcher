@@ -1,0 +1,928 @@
+on the move: Activity
+yoga: Activity
+workout: Activity
+tennis: Activity
+work: Activity
+golf: Activity
+casual: Activity
+training: Activity
+dance: Activity
+running: Activity
+hiking: Activity
+swim: Activity
+bike: Activity
+skorts: Attribute
+base layers: Attribute
+: Attribute
+5 pocket pants: Attribute
+no show socks: Attribute
+hoodies: Attribute
+slides: Attribute
+backpacks: Attribute
+caps: Attribute
+chino shorts: Attribute
+ankle socks: Attribute
+crew socks: Attribute
+half zip sweatshirts: Attribute
+bucket hats: Attribute
+cargo pants: Attribute
+beanies: Attribute
+wallets and pouches: Attribute
+athletic shorts: Attribute
+mat straps: Attribute
+knee high socks: Attribute
+sweat shorts: Attribute
+athletic jackets: Attribute
+duffle bags: Attribute
+yoga bags: Attribute
+foam rollers: Attribute
+resistance bands: Attribute
+crossbody bags: Attribute
+keychains: Attribute
+athletic skirts: Attribute
+hijabs: Attribute
+pullover sweaters: Attribute
+onesies: Attribute
+crewneck sweatshirts: Attribute
+board shorts: Attribute
+dress pants: Attribute
+chinos: Attribute
+totes: Attribute
+towels: Attribute
+sneakers: Attribute
+belt bags: Attribute
+scarves: Attribute
+vests: Attribute
+headbands: Attribute
+shampoo: Attribute
+sunscreen: Attribute
+hair clips: Attribute
+rain jackets: Attribute
+puffer jackets: Attribute
+windbreakers: Attribute
+blocks: Attribute
+bomber jackets: Attribute
+visors: Attribute
+packing cubes: Attribute
+hair ties: Attribute
+sliders: Attribute
+leg warmers: Attribute
+thongs: Attribute
+bikini underwear: Attribute
+zip up sweatshirts: Attribute
+boy shorts: Attribute
+bodycon dresses: Attribute
+bralettes: Attribute
+racerback bras: Attribute
+cardigans: Attribute
+jump ropes: Attribute
+turtlenecks: Attribute
+shirt dresses: Attribute
+scrunchies: Attribute
+cargo shorts: Attribute
+cross training shoes: Attribute
+rompers: Attribute
+lotion: Attribute
+cheeky underwear: Attribute
+swimsuit bottoms: Attribute
+one piece swimsuits: Attribute
+swimsuit tops: Attribute
+trail running shoes: Attribute
+parkas: Attribute
+joggers: Category
+women: Category
+sweatpants: Category
+short sleeve shirts: Category
+skirts: Category
+leggings: Category
+tights: Category
+pants: Category
+long sleeve shirts: Category
+bags: Category
+socks: Category
+sports bras: Category
+t-shirts: Category
+capris: Category
+hoodies & sweatshirts: Category
+button down shirts: Category
+shoes: Category
+water bottles: Category
+tank tops: Category
+shorts: Category
+hats: Category
+coats & jackets: Category
+accessories: Category
+trousers: Category
+underwear: Category
+jumpsuits & rompers: Category
+yoga accessories: Category
+gloves & mittens: Category
+yoga mats: Category
+scarves & wraps: Category
+shirts: Category
+dresses: Category
+swim trunks: Category
+we made too much: Category
+bodysuits: Category
+hair accessories: Category
+polo shirts: Category
+sweaters: Category
+lululemon membership: Category
+swimsuits: Category
+steady state: Collections
+dance studio: Collections
+fundamental: Collections
+align: Collections
+license to train: Collections
+abc: Collections
+love: Collections
+everywhere: Collections
+like a cloud: Collections
+wunder train: Collections
+groove: Collections
+perfectly oversized: Collections
+energy: Collections
+restfeel: Collections
+all yours: Collections
+wundermost: Collections
+lululemon lab: Collections
+speed up: Collections
+define: Collections
+strongfeel: Collections
+surge: Collections
+scuba: Collections
+fast & free: Collections
+wunder puff: Collections
+hold tight: Collections
+wunder under: Collections
+beyondfeel: Collections
+sculpt: Collections
+pace breaker: Collections
+bowline: Collections
+metal vent tech: Collections
+commission: Collections
+t.h.e.: Collections
+built to move: Collections
+5 year basic: Collections
+swiftly: Collections
+ebb to street: Collections
+city sweat: Collections
+base pace: Collections
+cool racerback: Collections
+always in motion: Collections
+soft jersey: Collections
+at ease: Collections
+cityverse: Collections
+engineered warmth: Collections
+on the fly: Collections
+zeroed in: Collections
+hotty hot: Collections
+blissfeel: Collections
+power pivot: Collections
+instill: Collections
+drysense: Collections
+swift speed: Collections
+invigorate: Collections
+free to be: Collections
+ready to rulu: Collections
+everywhere::::wunder puff: Collections
+chargefeel: Collections
+run times: Collections
+enlite: Collections
+in movement: Collections
+bend this: Collections
+loungeful: Collections
+navy: Color Family
+brown: Color Family
+blue: Color Family
+grey: Color Family
+orange: Color Family
+purple: Color Family
+printed: Color Family
+khaki: Color Family
+yellow: Color Family
+pink: Color Family
+green: Color Family
+red: Color Family
+olive: Color Family
+neutral: Color Family
+neon: Color Family
+brun: Color Family
+bleu: Color Family
+rouge: Color Family
+rose: Color Family
+gris: Color Family
+noir: Color Family
+bleu marine: Color Family
+violet: Color Family
+blanc: Color Family
+vert: Color Family
+vert olive: Color Family
+fluo: Color Family
+jaune: Color Family
+multicolore: Color Family
+camouflage: Color Family
+métallique: Color Family
+null: Color Family
+or: Color Family
+noir et blanc: Color Family
+bourgogne: Color Family
+neutre: Color Family
+argent: Color Family
+sonic pink: Color name
+espresso: Color name
+lip gloss: Color name
+bone: Color name
+black: Color name
+poolside: Color name
+java: Color name
+flush pink: Color name
+dark lavender: Color name
+strawberry milkshake: Color name
+white: Color name
+dark forest: Color name
+meadowsweet pink: Color name
+utility blue: Color name
+lilac smoke: Color name
+storm teal: Color name
+velvet dust: Color name
+pitch blue: Color name
+nomad: Color name
+mango dream: Color name
+cyan blue: Color name
+atomic purple: Color name
+wild indigo: Color name
+twilight rose: Color name
+pink peony: Color name
+true navy: Color name
+pistachio: Color name
+medium forest: Color name
+purple ash: Color name
+dramatic magenta: Color name
+kohlrabi green: Color name
+powder blue: Color name
+hot heat: Color name
+tidal teal: Color name
+solar orange: Color name
+aero blue: Color name
+pipe dream blue: Color name
+dark red: Color name
+sunny coral: Color name
+summer glow: Color name
+red merlot: Color name
+hawaiian blue: Color name
+dark oxide: Color name
+deep luxe: Color name
+dahlia mauve: Color name
+white opal: Color name
+pomegranate: Color name
+electric lemon: Color name
+contour: Color name
+grape thistle: Color name
+green jasper: Color name
+electric turquoise: Color name
+rhino grey: Color name
+graphite grey: Color name
+pastel blue: Color name
+cayenne: Color name
+maldives green: Color name
+riverstone: Color name
+trench: Color name
+grey sage: Color name
+glaze pink: Color name
+belgian blue: Color name
+dark olive: Color name
+army green: Color name
+moonlit magenta: Color name
+highlight yellow: Color name
+larkspur: Color name
+vintage rose: Color name
+psychic: Color name
+blue linen: Color name
+mint moment: Color name
+carnation red: Color name
+windmill: Color name
+faded zap: Color name
+iron blue: Color name
+washed mauve: Color name
+washed purple quartz: Color name
+oasis blue: Color name
+roasted brown: Color name
+french press: Color name
+lilac ether: Color name
+mojave tan: Color name
+shocking blue: Color name
+dusty clay: Color name
+sheer blue: Color name
+sheer lilac: Color name
+icing blue: Color name
+water drop: Color name
+charged indigo: Color name
+symphony blue: Color name
+bronze green: Color name
+magenta purple: Color name
+palm court: Color name
+cascadia green: Color name
+coral kiss: Color name
+allspice: Color name
+smoked spruce: Color name
+tidewater teal: Color name
+blue nile: Color name
+diamond dye pitch grey graphite grey: Color name
+carbon dust: Color name
+mulled wine: Color name
+brier rose: Color name
+night sea: Color name
+elixir: Color name
+pale raspberry: Color name
+laurel green: Color name
+utility yellow: Color name
+blazer blue tone: Color name
+raw linen: Color name
+everglade green: Color name
+raspberry cream: Color name
+rip tide: Color name
+sable: Color name
+taupetastic: Color name
+sonic yellow: Color name
+prosecco: Color name
+paradise green: Color name
+heathered core ultra light grey: Color name
+heathered dark espresso: Color name
+heathered dark forest: Color name
+heathered dark olive: Color name
+heathered deep luxe: Color name
+heathered deep navy: Color name
+heathered desert olive: Color name
+heathered glaze pink: Color name
+heathered grape thistle: Color name
+paint drift kohlrabi green multi: Color name
+wild mint: Color name
+submarine: Color name
+vapor: Color name
+creamy mint: Color name
+highlight orange: Color name
+heather grey: Color name
+silver drop: Color name
+tracer print emboss dusty amethyst multi: Color name
+pink pastel: Color name
+pink clay: Color name
+vitapink: Color name
+petrol blue: Color name
+pink mist: Color name
+heathered bone: Color name
+heathered brown earth: Color name
+heathered cascadia green: Color name
+heritage 365 camo deep coal multi: Color name
+blissful blue: Color name
+turquoise tide: Color name
+sinatra blue: Color name
+rainbow: Color name
+cassis: Color name
+jungle floor turquoise sea naval blue: Color name
+peach bellini: Color name
+finch yellow: Color name
+heathered black: Color name
+bay leaf: Color name
+rover: Color name
+mineral blue: Color name
+dew pink: Color name
+artifact: Color name
+spiced chai: Color name
+dottie tribe white black: Color name
+natural ivory: Color name
+green punch: Color name
+lichen lime: Color name
+lullaby: Color name
+wasabi: Color name
+flower burst multi: Color name
+flower glide max pink multi: Color name
+flower glide mini sundance multi: Color name
+flower glide mini true navy multi: Color name
+radiate foil print black: Color name
+backcountry camo blue orange multi: Color name
+undertone black multi: Color name
+cheetah camo deep coal multi: Color name
+grenadine red: Color name
+cross court wash pastel blue multi: Color name
+bold beige: Color name
+rhythmic emboss black: Color name
+marlin: Color name
+pow pink: Color name
+love red: Color name
+sakura pink: Color name
+scream green: Color name
+heathered graphite grey: Color name
+gradiate geo emboss black: Color name
+gradient foil engineer asphalt grey_graphite grey: Color name
+gradient foil engineer medium forest_storm teal: Color name
+autumn orange: Color name
+azalea pink: Color name
+earl grey: Color name
+vivid plum: Color name
+gull grey: Color name
+compass khaki: Color name
+ancient copper: Color name
+pale linen: Color name
+dusty rose: Color name
+narrow bold stripe black white: Color name
+sundance: Color name
+classic navy: Color name
+obsidian: Color name
+heritage 365 camo black multi: Color name
+heathered grey sage: Color name
+heathered core medium grey: Color name
+cyber violet: Color name
+raspberry coulis: Color name
+ripened raspberry: Color name
+hail: Color name
+misty shell: Color name
+twice blue: Color name
+wee are from space black slate: Color name
+wee are from space carnation red: Color name
+vintage pink: Color name
+butternut brown: Color name
+soft denim: Color name
+outline yogo mini violet grey purple ash: Color name
+lunar rock: Color name
+oil slick blue: Color name
+legacy green: Color name
+nano check antique white riverstone: Color name
+nano check rover black: Color name
+ombre glide washed mauve sakura pink peach bellini: Color name
+dewy: Color name
+asphalt grey: Color name
+seal grey: Color name
+silver blue: Color name
+deep artifact: Color name
+heathered windmill: Color name
+silverstone: Color name
+cerulean blue: Color name
+medium olive: Color name
+deep navy: Color name
+burnt orange: Color name
+gatsby blue: Color name
+sport red: Color name
+iridescent floral multi: Color name
+freckle flower black white: Color name
+sea steel: Color name
+heathered asphalt grey: Color name
+heathered auric gold: Color name
+heathered belgian blue: Color name
+pretty lace white black: Color name
+samba snake battleship black: Color name
+samba snake kayak blue hero blue: Color name
+smoky topaz: Color name
+vivid floral tone multi: Color name
+blossom silhouette max lilac smoke kelly green: Color name
+cadet blue: Color name
+cafe au lait: Color name
+nevis stripe grey sage light sage: Color name
+light vapor: Color name
+leopardo jacquard med black: Color name
+leopardo jacquard pomegranate black: Color name
+leopardo mini jacquard graphite grey black: Color name
+leopardo mini jacquard lunar rock black: Color name
+nouveau marble meadow sweet pink multi: Color name
+stony grape: Color name
+sun bleached wash red merlot: Color name
+auric gold: Color name
+dark mocha: Color name
+shale blue: Color name
+heathered natural ivory: Color name
+heathered oasis blue: Color name
+heathered opal: Color name
+heathered palm court: Color name
+heathered paradise green: Color name
+rope rappel angel wing rugged blue: Color name
+blue willow: Color name
+altered nature multi: Color name
+purple highlight: Color name
+anchor: Color name
+parachute: Color name
+neutral blush: Color name
+alarming: Color name
+spray leopard black multi: Color name
+spray leopard grey multi: Color name
+spray leopard wp grey multi: Color name
+ether green: Color name
+heathered storm teal: Color name
+heathered strawberry milkshake: Color name
+heathered taupetastic: Color name
+heathered texture printed greyt deep coal: Color name
+heathered true navy: Color name
+heathered ultra light grey: Color name
+pink lychee: Color name
+short serve stripe heathered medium grey black: Color name
+short serve stripe white black: Color name
+monarch bloom bone espresso: Color name
+antique bark: Color name
+circulate tie dye mineral blue multi: Color name
+green twill: Color name
+atmospheric purple multi: Color name
+clementine: Color name
+wee are from space nimbus battleship: Color name
+paint glide multi: Color name
+bordeaux drama: Color name
+take flight grey multi: Color name
+luminescent floral multi: Color name
+check plaid cassis pomegranate: Color name
+thermal green: Color name
+highlander: Color name
+lulu red: Color name
+wisp yellow: Color name
+frontier: Color name
+frosted jade: Color name
+frosted mulberry: Color name
+heathered warm apricot: Color name
+heathered washed mauve: Color name
+heathered white: Color name
+melanite: Color name
+shade: Color name
+pink puff: Color name
+spark green: Color name
+cape red: Color name
+chroma blur black multi: Color name
+chroma blur multi: Color name
+date brown: Color name
+pixel diffuse multi: Color name
+dark chrome: Color name
+dark coffee: Color name
+discord traverse grey multi: Color name
+cherry cola: Color name
+cherry mist: Color name
+cherry tint: Color name
+haze dot inverse orange multi: Color name
+hazy afterglow multi: Color name
+heritage 365 camo smoky red night sea multi: Color name
+sea frost: Color name
+sea mist: Color name
+wander teal: Color name
+rainforest green: Color name
+future utopia multi: Color name
+highlight pink: Color name
+spaced yogo outline wp faded zap marlin: Color name
+heathered sea frost: Color name
+teal lagoon: Color name
+thread dye white silver drop: Color name
+military green: Color name
+true red: Color name
+true stripe burnside green white: Color name
+true stripe subtle tan white: Color name
+true stripe true navy white: Color name
+smoky blush: Color name
+3 colour space dye deep coal dark carbon: Color name
+3 colour space dye ice grey alpine white: Color name
+dusty amethyst: Color name
+crumple mini jacquard elixir: Color name
+lavender dew: Color name
+black cherry: Color name
+brave olive: Color name
+butter pink: Color name
+flicker pace utility blue multi: Color name
+heathered raw linen: Color name
+heathered red merlot: Color name
+heathered rhino grey: Color name
+heathered rosemary green: Color name
+jumie stripe cyber violet grape thistle: Color name
+jumie stripe elixir edamame green: Color name
+jumie stripe red merlot graphite grey: Color name
+tri colour rulu green jasper oceanic: Color name
+breezy: Color name
+deep fuschia: Color name
+deep green: Color name
+heathered meadowsweet pink: Color name
+hero blue: Color name
+incognito camo multi gator green: Color name
+incognito camo multi grey: Color name
+incognito camo pink taupe multi: Color name
+logo flourish black iridescent foil: Color name
+data rush jacquard anchor symphonyblue: Color name
+shapeshifter foil black: Color name
+stippled fusion belgian blue multi: Color name
+infuse texture alpine white multi: Color name
+infuse texture chambray multi: Color name
+inherent brush wp bone raw linen: Color name
+ink islands burnside multi: Color name
+ink islands mauve multi: Color name
+ink islands true navy multi: Color name
+ink islands twice blue multi: Color name
+ink vapor ice grey multi: Color name
+inkwell: Color name
+inline stripe white heathered blue linen: Color name
+inline stripe white heathered grey sage: Color name
+inline stripe white heathered pink peony: Color name
+marble dye solar orange: Color name
+spiced bronze: Color name
+chalk: Color name
+knit leopard graphite grey black: Color name
+paint spark multi: Color name
+heathered core light grey: Color name
+heathered kohlrabi green: Color name
+heathered larkspur: Color name
+pocket stripe pitch blue brown earth: Color name
+pocket stripe rhino grey graphite grey: Color name
+pocket stripe windmill oasis blue: Color name
+gravel dust asphalt grey multi: Color name
+gravel dust true navy multi: Color name
+heathered blazer blue: Color name
+heathered blue chill: Color name
+heathered blue linen: Color name
+heathered iron blue: Color name
+ice green: Color name
+sea spray alpine white dark chrome: Color name
+beech wood: Color name
+college crimson: Color name
+commission stripe black white: Color name
+commission stripe cyber violet vitapink: Color name
+exurbia print bold beige tidal teal: Color name
+exurbia print mauve grey shadow grey: Color name
+gossamer floral vita pink multi: Color name
+kayak blue: Color name
+kayak blue light: Color name
+le tigre camo deep coal multi: Color name
+flash light: Color name
+heritage 365 camo rhino grey multi: Color name
+meteor wash print multi: Color name
+purist dotted speckle blue denim: Color name
+purist dotted speckle vintage plum faint coral: Color name
+purist more fruit: Color name
+purist team wordmark: Color name
+yellow pear: Color name
+beaming yellow: Color name
+bright white: Color name
+floral freestyle black multi: Color name
+floral freestyle multi: Color name
+floral glitch multi: Color name
+formation camo deep coal multi: Color name
+heathered chambray: Color name
+heathered code blue: Color name
+heathered copper brown: Color name
+heathered coral kiss: Color name
+heathered rover: Color name
+heathered silver drop: Color name
+heathered slate: Color name
+jaded: Color name
+marmoleado tie dye highlight yellow: Color name
+marmoleado tie dye white opal rosemary green: Color name
+river blue: Color name
+shadow grey: Color name
+sunbeam floral multi: Color name
+enzyme dye lilac ether: Color name
+enzyme dye mineral blue: Color name
+grey eucalyptus: Color name
+tofino teal: Color name
+whimsical meld wp bone mineral blue: Color name
+blue cast: Color name
+blue charcoal: Color name
+diffuse starlight black: Color name
+faint coral: Color name
+lined leopard wp anchor multi: Color name
+modern stripe white heathered medium grey: Color name
+peri purple: Color name
+pink glow: Color name
+digital bloom blur multi: Color name
+digital lavender: Color name
+digital murmuration teal multi: Color name
+dusty bronze: Color name
+gully green: Color name
+nautical navy: Color name
+power luxtreme spray jacquard sapphire blue black: Color name
+bone radiate transparent foil: Color name
+ember radiate mango dream multi: Color name
+heathered green jasper: Color name
+heathered poolside: Color name
+ruby red: Color name
+tiger: Color name
+future noise jacquard: Color name
+lululemon ombre red multi: Color name
+no colour: Color name
+nocturnal teal: Color name
+segment emboss black: Color name
+viridian green: Color name
+light quicksand: Color name
+marble dye wasabi: Color name
+pop cut fatigue green black: Color name
+boundless stripe black white: Color name
+boundless stripe bone black: Color name
+dandy digie multi: Color name
+dark sport red: Color name
+distressed twill emboss black: Color name
+fluro citrus tone: Color name
+maize yellow: Color name
+blurry belle multi: Color name
+in-sense emboss solar orange: Color name
+midnight navy: Color name
+regal plum: Color name
+apparition jacquard riverstone rover: Color name
+heather allover sea salt light cast: Color name
+pigment wind duck sauce multi: Color name
+red grape: Color name
+rich caramel: Color name
+traverse grey: Color name
+heathered lilac ether: Color name
+heathered lilac smoke: Color name
+heritage camo max rover white opal: Color name
+aquila rhino grey multi: Color name
+code blue: Color name
+cyber black deep coal: Color name
+kaleidofloral multi: Color name
+multicolour geo wash multi: Color name
+razzle: Color name
+lemon vibe: Color name
+pink sorbet: Color name
+burnside green: Color name
+poseidon: Color name
+luminesce splatter ice grey black: Color name
+heritage 365 camo green twill multi: Color name
+men: Gender
+30": Inseam
+25": Inseam
+15": Inseam
+28": Inseam
+27": Inseam
+32": Inseam
+23": Inseam
+31": Inseam
+14": Inseam
+13": Inseam
+4": Inseam
+26": Inseam
+37": Inseam
+29": Inseam
+2.5": Inseam
+9": Inseam
+6": Inseam
+34": Inseam
+8": Inseam
+7": Inseam
+3": Inseam
+5": Inseam
+16": Inseam
+21": Inseam
+3.5": Inseam
+12": Inseam
+22": Inseam
+24": Inseam
+18": Inseam
+7.5": Inseam
+10": Inseam
+19": Inseam
+17": Inseam
+2": Inseam
+33": Inseam
+short: Length
+cropped: Length
+maxi: Length
+mini: Length
+long: Length
+midi: Length
+s: Size
+6: Size
+m: Size
+xl: Size
+travel: Size
+8: Size
+0: Size
+20: Size
+l: Size
+46: Size
+44: Size
+14: Size
+xs: Size
+one size: Size
+12: Size
+10: Size
+4: Size
+18: Size
+2: Size
+xxl: Size
+xxxl: Size
+16: Size
+38dd: Size
+38d: Size
+7: Size
+13: Size
+38c: Size
+11: Size
+40c: Size
+9: Size
+28: Size
+40d: Size
+32: Size
+33: Size
+31: Size
+30: Size
+42: Size
+36: Size
+35: Size
+40: Size
+34: Size
+4xl: Size
+38: Size
+29: Size
+5xl: Size
+l/xl: Size
+9.5: Size
+s/m: Size
+xxs: Size
+1x: Size
+8.5: Size
+m/l: Size
+xs/s: Size
+xl/xxl: Size
+34 b: Size
+34 ddd: Size
+34 c: Size
+34 d: Size
+34 dd: Size
+32 d: Size
+32 dd: Size
+32 c: Size
+32 g: Size
+32 ddd: Size
+32 b: Size
+6.5: Size
+7.5: Size
+34 g: Size
+36 b: Size
+5.5: Size
+5: Size
+10.5: Size
+11.5: Size
+38 c: Size
+40 d: Size
+38 d: Size
+38 dd: Size
+40 c: Size
+36 c: Size
+36 d: Size
+36 ddd: Size
+36 dd: Size
+32b: Size
+32ddd: Size
+32dd: Size
+32d: Size
+32c: Size
+34c: Size
+34b: Size
+32g: Size
+34g: Size
+34ddd: Size
+34dd: Size
+34d: Size
+36d: Size
+36c: Size
+36b: Size
+36ddd: Size
+36dd: Size
+38 b: Size
+27: Size
+26: Size
+48: Size
+full: Size
+37: Size
+39: Size
+2xl: Size
+12.5: Size
+xxxs: Size
+13.5: Size
+24: Size
+25: Size
+50: Size
+36 e: Size
+32 e: Size
+34 e: Size
+34 a: Size
+36 a: Size
+30 ddd: Size
+36 g: Size
+30 dd: Size
+30 d: Size
+30 c: Size
+42 dd: Size
+42 ddd: Size
+38 g: Size
+38 ddd: Size
+40 ddd: Size
+40 g: Size
+40 dd: Size
+42 d: Size
+30 e: Size
+38 e: Size
+40 e: Size
+32 f: Size
+34 f: Size
+40 b: Size
+42 g: Size
+40g: Size
+40dd: Size
+42dd: Size
+42ddd: Size
+42d: Size
+38g: Size
+38ddd: Size
+42 e: Size
+38b: Size
+36g: Size
+xxs/xs: Size
