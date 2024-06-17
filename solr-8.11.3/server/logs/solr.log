@@ -1,0 +1,58 @@
+2024-06-17 21:39:21.081 INFO  (main) [   ] o.e.j.u.log Logging initialized @682ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-06-17 21:39:21.240 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.53.v20231009; built: 2023-10-09T12:29:09.265Z; git: 27bde00a0b95a1d5bbee0eae7984f891d2d0f8c9; jvm 22.0.1+8-16
+2024-06-17 21:39:21.245 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3/server/contexts/] at interval 0
+2024-06-17 21:39:21.366 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2024-06-17 21:39:21.371 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2024-06-17 21:39:21.371 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2024-06-17 21:39:21.372 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2024-06-17 21:39:21.400 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2024-06-17 21:39:21.402 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 8.11.3
+2024-06-17 21:39:21.403 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2024-06-17 21:39:21.403 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3
+2024-06-17 21:39:21.403 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2024-06-17T21:39:21.403248Z
+2024-06-17 21:39:21.410 INFO  (main) [   ] o.a.s.c.SolrPaths Using system property solr.solr.home: /Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3/server/solr
+2024-06-17 21:39:21.410 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3/server/solr/solr.xml
+2024-06-17 21:39:21.447 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@2767e23c, but no JMX reporters were configured - adding default JMX reporter.
+2024-06-17 21:39:21.695 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2024-06-17 21:39:21.771 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@3f702946[provider=null,keyStore=null,trustStore=null]
+2024-06-17 21:39:21.771 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@3f702946[provider=null,keyStore=null,trustStore=null]
+2024-06-17 21:39:21.831 WARN  (main) [   ] o.e.j.u.s.S.config Trusting all certificates configured for Client@2cae9b8[provider=null,keyStore=null,trustStore=null]
+2024-06-17 21:39:21.831 WARN  (main) [   ] o.e.j.u.s.S.config No Client EndPointIdentificationAlgorithm configured for Client@2cae9b8[provider=null,keyStore=null,trustStore=null]
+2024-06-17 21:39:21.847 WARN  (main) [   ] o.a.s.c.CoreContainer Not all security plugins configured!  authentication=disabled authorization=disabled.  Solr is only as secure as you make it. Consider configuring authentication/authorization before exposing Solr to users internal or external.  See https://s.apache.org/solrsecurity for more info
+2024-06-17 21:39:21.927 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient core cache for max 2147483647 cores with initial capacity of 1024
+2024-06-17 21:39:21.931 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2024-06-17 21:39:21.960 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@2767e23c
+2024-06-17 21:39:21.960 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@2767e23c
+2024-06-17 21:39:21.961 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@2767e23c
+2024-06-17 21:39:21.975 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3/server/solr
+2024-06-17 21:39:22.000 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@5c48c0c0{/solr,file:///Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3/server/solr-webapp/webapp/,AVAILABLE}{/Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3/server/solr-webapp/webapp}
+2024-06-17 21:39:22.004 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@6cfcd46d{HTTP/1.1, (http/1.1, h2c)}{0.0.0.0:8983}
+2024-06-17 21:39:22.004 INFO  (main) [   ] o.e.j.s.Server Started @1607ms
+2024-06-17 21:40:00.642 INFO  (qtp1830190936-40) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8983/solr/admin/info/system?wt=json)
+2024-06-17 21:40:00.656 INFO  (qtp1830190936-40) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=13
+2024-06-17 21:40:00.682 INFO  (qtp1830190936-34) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8983/solr/admin/info/system?wt=json)
+2024-06-17 21:40:00.683 INFO  (qtp1830190936-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=1
+2024-06-17 21:40:00.688 INFO  (qtp1830190936-35) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8983/solr/admin/cores?action=STATUS&core=search_queries&wt=json)
+2024-06-17 21:40:00.689 INFO  (qtp1830190936-35) [   x:search_queries] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=search_queries&action=STATUS&wt=json} status=0 QTime=0
+2024-06-17 21:40:00.705 INFO  (qtp1830190936-36) [   ] o.a.s.s.HttpSolrCall HttpSolrCall.init(http://localhost:8983/solr/admin/cores?action=CREATE&name=search_queries&instanceDir=search_queries&wt=json)
+2024-06-17 21:40:00.706 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.h.a.CoreAdminOperation core create command name=search_queries&action=CREATE&instanceDir=search_queries&wt=json
+2024-06-17 21:40:00.719 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.c.SolrConfig Using Lucene MatchVersion: 8.11.3
+2024-06-17 21:40:00.738 WARN  (qtp1830190936-36) [   x:search_queries] o.a.s.c.SolrConfig solrconfig.xml: <jmx> is no longer supported, use solr.xml:/metrics/reporter section instead
+2024-06-17 21:40:00.760 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.s.IndexSchema Schema name=default-config
+2024-06-17 21:40:00.926 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2024-06-17 21:40:00.939 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.c.CoreContainer Creating SolrCore 'search_queries' using configuration from instancedir /Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3/server/solr/search_queries, trusted=true
+2024-06-17 21:40:00.945 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.search_queries' (registry 'solr.core.search_queries') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@2767e23c
+2024-06-17 21:40:00.951 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.c.SolrCore [[search_queries] ] Opening new SolrCore at [/Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3/server/solr/search_queries], dataDir=[/Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3/server/solr/search_queries/data/]
+2024-06-17 21:40:01.215 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2024-06-17 21:40:01.215 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2024-06-17 21:40:01.219 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2024-06-17 21:40:01.219 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2024-06-17 21:40:01.246 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /Users/nickryan/Peter/ShingleEntityMatcher/solr-8.11.3/server/solr/search_queries/conf
+2024-06-17 21:40:01.251 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2024-06-17 21:40:01.254 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxQueryFrequency=0.01,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4}
+2024-06-17 21:40:01.258 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.h.ReplicationHandler Commits will be reserved for 10000 ms
+2024-06-17 21:40:01.260 INFO  (qtp1830190936-36) [   x:search_queries] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1802146048911605760
+2024-06-17 21:40:01.262 INFO  (searcherExecutor-15-thread-1-processing-x:search_queries) [   x:search_queries] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2024-06-17 21:40:01.262 INFO  (searcherExecutor-15-thread-1-processing-x:search_queries) [   x:search_queries] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2024-06-17 21:40:01.263 INFO  (qtp1830190936-36) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=search_queries&action=CREATE&instanceDir=search_queries&wt=json} status=0 QTime=557
+2024-06-17 21:40:01.265 INFO  (searcherExecutor-15-thread-1-processing-x:search_queries) [   x:search_queries] o.a.s.c.SolrCore [search_queries]  Registered new searcher autowarm time: 0 ms
