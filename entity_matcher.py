@@ -1,4 +1,13 @@
 import csv
+import visits_revenue_aggregator
+
+# Global variables for filenames
+INPUTS_CSV = 'inputs.csv'
+MATCHED_TABLE_CSV = 'MatchedTable.csv'
+UNMATCHED_TABLE_CSV = 'UnmatchedTable.csv'
+LULU_TERMS_CSV = 'lulu_terms.csv'
+LULU_TERMS_AGGREGATED_CSV = 'lulu_terms_Aggregated.csv'
+POPULATED_DICT_TXT = 'populated_dict.txt'
 
 # Global dictionary to store column values as keys and column names as values
 global_dict = {}
@@ -26,8 +35,8 @@ def generate_shingles(phrase):
 # Write to MatchedTable and UnmatchedTable CSVs
 def write_to_csvs(search_query, shingles, visits, revenue):
     print(f"Writing to CSVs for the search query: {search_query}")
-    with open('MatchedTable.csv', mode='a', newline='', encoding='utf-8') as matched_file, \
-         open('UnmatchedTable.csv', mode='a', newline='', encoding='utf-8') as unmatched_file:
+    with open(MATCHED_TABLE_CSV, mode='a', newline='', encoding='utf-8') as matched_file, \
+         open(UNMATCHED_TABLE_CSV, mode='a', newline='', encoding='utf-8') as unmatched_file:
         
         matched_writer = csv.writer(matched_file)
         unmatched_writer = csv.writer(unmatched_file)
@@ -42,23 +51,24 @@ def write_to_csvs(search_query, shingles, visits, revenue):
                 unmatched_writer.writerow([shingle, search_query, visits, revenue])
                 print(f"Unmatched: {shingle}")
 
-
-read_csv_and_populate_dict('inputs.csv')
+read_csv_and_populate_dict(INPUTS_CSV)
 # Output the sorted populated dictionary to a text file
-with open('populated_dict.txt', 'w') as f:
+with open(POPULATED_DICT_TXT, 'w') as f:
     for key, value in sorted(global_dict.items(), key=lambda item: item[1]):
         f.write(f'{key}: {value}\n')
 
 # Clear existing data and add headers to MatchedTable and UnmatchedTable
-with open('MatchedTable.csv', mode='w', newline='', encoding='utf-8') as matched_file, \
-     open('UnmatchedTable.csv', mode='w', newline='', encoding='utf-8') as unmatched_file:
+with open(MATCHED_TABLE_CSV, mode='w', newline='', encoding='utf-8') as matched_file, \
+     open(UNMATCHED_TABLE_CSV, mode='w', newline='', encoding='utf-8') as unmatched_file:
     matched_writer = csv.writer(matched_file)
     unmatched_writer = csv.writer(unmatched_file)
     matched_writer.writerow(["Matched Shingle", "Entity", "Search Query", "Visits", "Revenue"])
     unmatched_writer.writerow(["Unmatched Shingle", "Search Query", "Visits", "Revenue"])
 
+visits_revenue_aggregator.normalize_and_aggregate(LULU_TERMS_CSV, LULU_TERMS_AGGREGATED_CSV)
+
 # Read search queries from another CSV and process each
-with open('lulu_terms.csv', mode='r', newline='', encoding='utf-8') as search_queries_file:
+with open(LULU_TERMS_AGGREGATED_CSV, mode='r', newline='', encoding='utf-8') as search_queries_file:
     reader = csv.reader(search_queries_file)
     next(reader)  # Skip the header
     print("Processing search queries...")
