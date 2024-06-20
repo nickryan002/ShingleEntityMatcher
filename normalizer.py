@@ -1,5 +1,6 @@
 import requests
 
+# Function to normalize text by analyzing it using Solr's analysis endpoint
 def normalize(text_to_analyze):
     solr_url = "http://localhost:8983/solr"
     core_name = "search_queries"
@@ -7,7 +8,7 @@ def normalize(text_to_analyze):
     analysis_result = analyze_text_HTTP(solr_url, core_name, field_type, text_to_analyze)
     return get_normalized_text(analysis_result)
 
-
+# Function to send a request to Solr's analysis endpoint to analyze the text
 def analyze_text_HTTP(solr_url, core_name, field_type, text_to_analyze):
     analysis_url = f"{solr_url}/{core_name}/analysis/field"
     params = {
@@ -16,13 +17,10 @@ def analyze_text_HTTP(solr_url, core_name, field_type, text_to_analyze):
         'analysis.fieldvalue': text_to_analyze
     }
     response = requests.get(analysis_url, params=params)
-    # print(f"Text to analyze: {text_to_analyze}")
-    # print(f"Request URL: {response.url}")
-    # print(f"Response status code: {response.status_code}")
-    # print(f"Response text: {response.text}")
     response.raise_for_status()  # Raise an exception for HTTP errors
     return response.json()
 
+# Function to extract the normalized text from Solr's analysis response
 def get_normalized_text(response):
     tokens = []
     analysis_result = response.get('analysis', {}).get('field_types', {}).get('dig_practice_char_syns', {}).get('index', [])
