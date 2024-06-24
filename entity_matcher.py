@@ -8,6 +8,8 @@ MATCHED_TABLE_CSV = '125_MatchedTable.csv'
 UNMATCHED_TABLE_CSV = '125_UnmatchedTable.csv'
 LULU_TERMS_CSV = 'searchTerms-125.csv'
 LULU_TERMS_AGGREGATED_CSV = 'searchTerms-125_Aggregated.csv'
+SYNONYMS_TXT = 'lulu_solr_synonyms.txt'
+SYNONYM_MATCHES_CSV = 'SynonymMatches.csv'
 
 # Global SortedDict to store shingles with their corresponding details
 shingles_dict = SortedDict()
@@ -29,7 +31,7 @@ def read_csv_and_populate_shingles_dict(filename):
                         shingle_type = "full" if shingle.lower() == entity.lower() else "partial"
                         if shingle_key not in shingles_dict:
                             shingles_dict[shingle_key] = []
-                        shingles_dict[shingle_key].append([entity, shingle_type, entity_type])
+                        shingles_dict[shingle_key].append([shingle.lower(), entity, shingle_type, entity_type])
     print("Shingles dictionary populated successfully.")
     # Debug: Print the populated dictionary
     print("Populated shingles dictionary:")
@@ -54,13 +56,47 @@ def write_to_csvs(search_query, shingles, visits, revenue):
         unmatched_writer = csv.writer(unmatched_file)
         
         for shingle in shingles:
-            if shingle in shingles_dict:
-                for entry in shingles_dict[shingle]:
-                    matched_writer.writerow([shingle, *entry, search_query, visits, revenue])
+            # Convert shingle to lowercase for case insensitive comparison
+            lower_shingle = shingle.lower()
+            if lower_shingle in shingles_dict:
+                for entry in shingles_dict[lower_shingle]:
+                    matched_writer.writerow([shingle, entry[1], entry[2], entry[3], search_query, visits, revenue])
                     print(f"Matched: {shingle}")
             else:
                 unmatched_writer.writerow([shingle, search_query, visits, revenue])
                 print(f"Unmatched: {shingle}")
+
+# Process synonyms and write to SynonymMatches CSV
+def process_synonyms():
+    with open(SYNONYMS_TXT, mode='r', encoding='utf-8') as synonyms_file, \
+         open(SYNONYM_MATCHES_CSV, mode='w', newline='', encoding='utf-8') as synonym_matches_file:
+        
+        synonym_writer = csv.writer(synonym_matches_file)
+        synonym_writer.writerow(["Left Term", "Entity", "Original Line", "Rewritten Line"])
+
+        for line in synonyms_file:
+            line = line.strip()
+
+            if '=>' in line:
+                left_term, right_terms = line.split('=>', 1)
+                left_term = left_term.strip()
+                right_terms = [term.strip() for term in right_terms.split(',')]
+                
+                lower_left_term = left_term.lower()
+                
+                # Check if the left term is in the shingles dictionary and not in the right terms
+                if lower_left_term in shingles_dict:
+                    if left_term not in right_terms:
+                        print(f"Left term = {left_term} | Right term = {right_terms}")
+                        # Retrieve the first matching entry for the left term
+                        matching_entries = shingles_dict[lower_left_term]
+                        for entry in matching_entries:
+                            entity_type = entry[3]  # Get the entity type from the first match
+                            original_line = line
+                            rewritten_line = f"{left_term} => {left_term}, {', '.join(right_terms)}"
+                            synonym_writer.writerow([left_term, entity_type, original_line, rewritten_line])
+                            print(f"Processed synonym: {left_term}")
+                            break
 
 # Clear existing data and add headers to MatchedTable and UnmatchedTable
 with open(MATCHED_TABLE_CSV, mode='w', newline='', encoding='utf-8') as matched_file, \
@@ -86,3 +122,5 @@ with open(LULU_TERMS_AGGREGATED_CSV, mode='r', newline='', encoding='utf-8') as 
         shingles = generate_shingles(search_phrase)
         write_to_csvs(search_phrase, shingles, visits, revenue)
     print("Finished processing all search queries.")
+
+process_synonyms()
