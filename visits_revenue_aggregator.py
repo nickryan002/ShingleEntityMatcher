@@ -1,6 +1,7 @@
 import csv
 from collections import defaultdict
 from decimal import Decimal
+import sys
 import normalizer  # Assuming you have a normalizer module with a normalize function
 
 def normalize_and_aggregate(input_filename, output_filename):
@@ -14,7 +15,10 @@ def normalize_and_aggregate(input_filename, output_filename):
 
         for row in reader:
             iteration_count += 1
-            print(f"Search queries processed: {iteration_count}")
+            # Update and print the iteration count every 1000 iterations
+            if iteration_count % 1000 == 0:
+                sys.stdout.write(f"\rIteration count: {iteration_count}")
+                sys.stdout.flush()
             
             search_query = row[0]
             normalized_search_query = normalizer.normalize(search_query)
